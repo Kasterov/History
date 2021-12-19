@@ -1,0 +1,50 @@
+#MainName {
+	margin: 12px;
+	float: left;
+	display: inline-block;
+	width: 8%;
+	min-width: 120px;
+	height: 40px;
+	text-align: center;
+	color: #ffffff;
+}
+
+#Logo {
+	margin: 16px;
+	background-image: url(SecondExport.svg);
+	float: left;
+	display: inline-block;
+	width: 32px;
+	height: 20px;
+}
+
+#HeaderBar {
+	font-size: 25px;
+	min-width: 1000px;
+	float: center;
+	width: 100%;
+	height: 50px;
+	display: inline-block;
+	background-color: #1a1a1a;
+	position: fixed;
+	position: fixed;
+  	left: 0;
+  	top: 0;
+  	z-index: 1;
+}
+
+.HeaderMenu {
+	margin: 12px;
+	width: 130px;
+	height:40px;
+	display: inline-block;
+	float: right;
+	color: #ffffff;
+	opacity: 0.5;
+	transition: 0.2s;
+}
+
+.HeaderMenu:hover {
+	transition: 0.5s ease-out;
+	opacity: 1;
+}

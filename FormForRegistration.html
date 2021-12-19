@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto:wght@100&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="FormStyle.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="Header.css">
+	<title>Registration</title>
+</head>
+<body link="white" vlink="white" alink="white">
+	<div  id ="HeaderBar">
+		<a href="MySyteProject.html"><div id="Logo"></div>
+		<div  id="MainName">Our history</div></a>
+		<a href="AboutUs.html"><div class="HeaderMenu">Про нас</div></a>
+		<a href="Sourses.html"><div class="HeaderMenu">Джерела</div></a>
+		<a href="FormForRegistration.html"><div class="HeaderMenu" class="HeaderMenu">Аккаут</div></a>
+		<a href="History.html"><div class="HeaderMenu">Історія</div></a>
+	</div>
+	<div id="Registr" align="center">
+		Реєстрація
+	</div>
+	<div id="MainForm">
+		<table>
+			<form method="post">
+			<tr>
+				<td>Ваше ім'я:</td>
+				<td><input type="text" size="12"></td>
+			</tr>
+			<tr>
+				<td>Пароль:</td>
+				<td><input type="password"></td>
+			</tr>
+			<tr>
+				<td>Підтвердіть пароль:</td>
+				<td><input type="password"></td>
+			</tr>
+			<tr>
+				<td>Ваша почта:</td>
+				<td><input type="email" pattern=".+@globex\.com" size="30" required placeholder="Slava@example.com"></td>
+			</tr>
+			<tr>
+				<td>Ваш телефон:</td>
+				<td><input type="tel"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="098-974-3471"></td>
+			</tr>
+				<td>Аватарка:<br></td>
+			<td>
+				<label for="file-input">
+    				<img id="Load" src="Add.png"/>
+  				</label>
+  				<input id="file-input" type="file" />
+  				<a href="MySyteProject.html">
+  					<div id="Ready">
+  						<input type="submit" value="Зареєструвати">
+  				</div></a>
+  			</td>
+			</form>
+		</table>
+	</div>
+
+	<div id="Footer" align="center">
+		В мене вже є аккаунт
+	</div>
+
+</body>
+</html>

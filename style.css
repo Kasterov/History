@@ -1,0 +1,93 @@
+body {
+	margin: 0px;
+	font-family: 'Roboto', sans-serif; 
+	background-image: url(BG.png);
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.Options {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 30px;
+	margin-top: 26px;
+	width: 400px;
+	min-width: 400px;
+	height: 350px;
+	font-weight: 300;
+	font-size: 72px;
+	font-size: 50px;
+	background: #FFFFFF;
+	text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 48px;
+	transition: .2s;
+}
+
+.Options:hover {
+	background-image: url(TextureBG.png);
+	transition: .3s;
+	transform: scale(.98);
+	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
+}	
+
+
+#Box {
+	margin-top: 100px;
+	width: 450px;
+	height: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	background-image: url(LogoMain.png);
+}
+
+#About:hover {
+	background-color: #d1ede0;
+}
+
+#Connect:hover {
+	background-color: #d1d1ed;
+}
+
+#Enter:hover{
+	background-color: #eddad1;
+}
+
+#Quote {
+	margin-left: auto;
+    margin-right: auto;
+	width: 60%;
+	min-width: 900px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #1a1a1a;
+	color: white;
+	border-radius: 30px;
+	font-style: italic;
+	font-size: 30px;
+	margin-top: 100px;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.Info {
+	border-radius: 80px;
+	margin: 30px;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	transition: 0.2s;
+}
+
+.Info:hover {
+	transition: 0.2s;
+	background-color: #d1ede0;
+	transform: scale(1.1);
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}

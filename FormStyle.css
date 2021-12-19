@@ -1,0 +1,85 @@
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	background-image: url(BG.png); 
+}
+
+input {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	background-color: #72737d;
+	margin:  10px;
+	font-size: 20px;
+	height: 30px;
+	outline: none;
+	border: none;
+}
+
+input:hover {
+	background-color: #1a1a1a;
+	transition: .2s;
+}
+
+label ~ input {
+    display: none;
+}
+
+#Registr {
+	font-size: 50px;
+	width: 500px;
+	height: 60px;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+#Load {
+	border-radius: 60px;
+	transition: .4s;
+}
+
+#Load:hover {
+	background-color: #d1ede0;
+	transition: .4s;
+	transform: scale(.9);
+}
+
+#Ready {
+	color: #000000;
+	margin-top: 20px;
+	float: right;
+	border-radius: 5px;
+}
+
+#MainForm {
+	background-image: url(BG2.png);
+	margin-left: auto;
+    margin-right: auto;
+	font-size: 20px;
+	padding: 10px;
+	width: 500px;
+	height: 350px;
+	border-radius: 30px;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+#Footer {
+	transition: .2s;
+	color: white;
+	margin-top: 20px;
+	font-size: 40px;
+	width: 500px;
+	height: 50px;
+	margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+	background-color: #1a1a1a;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+#Footer:hover {
+	cursor: pointer;
+	transition: .2s;
+	color: #d1ede0;
+	transform: scale(.99);
+}
